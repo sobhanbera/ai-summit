@@ -2,9 +2,9 @@
   "name": "ai-summit",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start": "next dev",
     "build": "next build",
-    "start": "next start",
+    "nxt:start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
