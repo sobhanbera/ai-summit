@@ -18,7 +18,7 @@ app.prepare()
             if (pathname === 'a') {
                 app.render(req, res, '/a', query)
             } else if (pathname === '/b') {
-                app.render(req, res, '\b', query)
+                app.render(req, res, '/b', query)
             } else {
                 handle(req, res, parsedUrl)
             }
