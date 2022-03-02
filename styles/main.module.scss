@@ -1,0 +1,103 @@
+.mainContainer {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        border-bottom: 1px solid var(--border);
+
+        padding: 20px 16px;
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 30px 0;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            padding: 16px;
+
+            width: max-content;
+            border-radius: 6px;
+
+            box-shadow: 5px 6px 0px #252525;
+
+            background-color: #171717;
+
+            * {
+                background-color: #171717;
+            }
+
+            .combineInputs {
+                display: flex;
+                flex-direction: row;
+                margin: 10px 8px;
+            }
+
+            .combineInputs .inputContainer,
+            .inputContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+
+                label {
+                    margin: 10px 8px 0px 8px;
+                    color: var(--text-color-light);
+                }
+
+                input,
+                select {
+                    margin: 8px 8px;
+                    padding: 13px 22px;
+                    min-width: 320px;
+
+                    outline: none;
+                    border: 1px solid var(--border);
+                    border-radius: 3px;
+                    font-size: 16px;
+
+                    &:hover,
+                    &:focus {
+                        border: 1px solid var(--white);
+                    }
+                }
+            }
+
+            button {
+                background-color: var(--primary);
+                outline: none;
+                border: 2px solid var(--primary);
+
+                margin: 15px 10px;
+                padding: 8px 25px;
+                min-width: 300px;
+
+                border-radius: 3px;
+                color: black;
+
+                cursor: pointer;
+
+                &:hover,
+                &:focus {
+                    background-color: transparent;
+                    color: white;
+                }
+            }
+        }
+    }
+}

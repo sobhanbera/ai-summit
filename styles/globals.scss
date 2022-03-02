@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --background: #000000;
+    --text-color: #ffffff;
+    text-color-light: #909090;
+
+    --primary: #53f6c6;
+
+    --border: #404040;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    transition: 0.4s all;
+    padding: 0;
+    margin: 0;
+
+    outline: none;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+
+    font-family: Roboto, Ubuntu, sans-serif;
+
+    color: var(--text-color);
+    background-color: var(--background);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Ubuntu, sans-serif;
+    font-size: 18px;
+}

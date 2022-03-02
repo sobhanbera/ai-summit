@@ -1,0 +1,41 @@
+.mainContainer header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding: 20px 16px; }
+  .mainContainer header p {
+    font-size: 20px;
+    font-weight: bold; }
+.mainContainer main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px; }
+  .mainContainer main form input {
+    margin: 12px 8px;
+    padding: 13px 22px;
+    min-width: 320px;
+    outline: none;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 16px; }
+    .mainContainer main form input:hover, .mainContainer main form input:focus {
+      border: 1px solid var(--white); }
+  .mainContainer main form button {
+    background-color: var(--primary);
+    outline: none;
+    border: 2px solid var(--primary);
+    margin: 8px;
+    padding: 8px 25px;
+    min-width: 300px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer; }
+    .mainContainer main form button:hover, .mainContainer main form button:focus {
+      background-color: transparent;
+      color: white; }
+
+/*# sourceMappingURL=main.module.css.map */
